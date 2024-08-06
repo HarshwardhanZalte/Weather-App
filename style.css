@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212121;
+    color: white;   
+    background: url(./hero.jpg) no-repeat center center fixed; 
+    background-size: cover; 
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 10px 20px;
+    border-bottom: 1px solid #fff;
+}
+
+#title {
+    font-size: 36px;
+}
+
+#search-box {
+    width: 500px;
+    height: 35px;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius:  6px;
+    border: 1px solid #fff;
+
+    input {
+        width: 370px;
+        padding: 10px 5px;
+        float: left;
+        color: #fff;
+        font-size: 18px;
+        border: 0;
+        background: transparent;
+        border-radius: 3px 0 0 3px;
+        &:focus {
+        outline: 0;
+        background:transparent;
+        }
+    }
+
+    button {
+        position: relative;
+        float: right;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 35px;
+        width: 120px;
+        color: #fff;
+        background: transparent;
+        border-left: 1px solid #fff;
+        border-radius: 0 3px 3px 0;
+        &:hover {
+        background: #fff;
+        color:#444;
+        }
+        &:active {
+        box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+        }
+        &:focus {
+        outline: 0;
+        }
+    }  
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 10px 20px;
+    margin: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+#cityName {
+    font-size: 90px;
+    font-weight: 600;
+}
+
+#address {
+    font-size: 36px;
+}
+
+#temp {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent;
+    padding: 10px 20px;
+}
+
+#deg-c {
+    font-size: 100px;
+    font-weight: 300;
+}
+
+#deg-f {
+    font-size: 100px;
+    font-weight: 300;
+}
+
+#time {
+    font-size: 24px;
+    width: 97%;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#condition {
+    font-size: 30px;
+    width: 97%;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#extra-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+    
+}
+
+#wind {
+    font-size: 70px;
+    font-weight: 300;
+}
+
+#humidity {
+    font-size: 70px;
+    font-weight: 300;
+}
