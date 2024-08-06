@@ -9,7 +9,7 @@ const condition = document.querySelector('#condition');
 const wind = document.querySelector('#wind');
 const humidity = document.querySelector('#humidity');
 
-const apiKey = 'd55b4f507f934bdc8af80232240508';
+const apiKey = 'YOUR_API_KEY';
 const defaultCity = 'pune';
 
 function updateWeatherUI(data) {
