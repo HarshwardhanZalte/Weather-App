@@ -37,7 +37,7 @@ function fetchWeather(cityName) {
 }
 
 search.addEventListener('click', function () {
-    const cityName = inputCity.value.trim();
+    const cityName = inputCity.value;
     if (!cityName) {
         alert("Enter City Name.");
         return;
